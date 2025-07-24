@@ -1,0 +1,8 @@
+en-CA-LiamNeural
+en-GB-RyanNeural
+en-IE-ConnorNeural
+en-NG-AbeoNeural
+en-SG-WayneNeural
+en-US-AndrewMultilingualNeural
+en-US-GuyNeural
+en-US-SteffanNeural
