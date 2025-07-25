@@ -69,6 +69,20 @@ python server.py
 ```
 By default, the server will be hosted at `http://localhost:8080`. Users can visit this address, enter their prompt, and download the generated video once processing is finished.
 
+## Examples
+
+### Command Line
+
+![Example of the command line interface](examples/cli_example.png)
+
+### Web Server
+
+![Example of the web server](examples/server_example.png)
+
+### Full Video
+
+![Sample video created by the software](examples/sample_video.mp4)
+
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
