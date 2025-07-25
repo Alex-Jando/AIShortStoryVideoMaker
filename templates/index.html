@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Short Story Video Maker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1>AI Short Story Video Maker</h1>
+        <form onsubmit="event.preventDefault(); handleSubmit();">
+            <label for="prompt">Enter your story prompt:</label>
+            <textarea id="prompt" name="prompt" rows="4" required></textarea>
+            <button type="submit" id="generateButton">Generate Video</button>
+        </form>
+    </div>
+    <div id="loading" class="loading" style="display: none;">
+        <p>Generating video, please wait as this may take a few minutes...</p>
+    </div>
+    <div id="error" class="error" style="display: none;">
+        <h2>An error occured while generating the video.</h2>
+        <p id="errorMsg"></p>
+    </div>
+    <div id="result" class="result">
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

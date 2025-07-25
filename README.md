@@ -18,8 +18,8 @@ To run this project, ensure you have the following installed:
 - Python 3.8+
 - CUDA-enabled GPU (for Stable Diffusion)
 - Required Python libraries (see `requirements.txt`)
-- `stabilityai/stable-diffusion-3.5-medium` model installed from hugging face (Other models work as well, just change in `assemble.py`)
-- `llama3.1` model installed from ollama (Other models work as well, just change in `assemble.py`)
+- `stabilityai/stable-diffusion-3.5-medium` model installed from hugging face (Other models work as well, just change in `cli.py` or `server.py`)
+- `llama3.1` model installed from ollama (Other models work as well, just change in `cli.py` or `server.py`)
 
 ## Installation
 
@@ -37,7 +37,10 @@ Create a `.env` file in the root folder and ensure that the `PEXELS_API_KEY` val
 
 ## Usage
 
+### Command Line
+
 To create a video, run the main script with your desired prompt:
+
 ```bash
 .\run.bat
 ...
@@ -55,6 +58,16 @@ Generating video...
 ...
 Video generated and saved as videos/video_1.mp4
 ```
+
+### Web Server
+
+You can also run the project as a Flask server, allowing users to input prompts via a web interface and receive the generated video when it's complete.
+
+To start the server:
+```bash
+python server.py
+```
+By default, the server will be hosted at `http://localhost:8080`. Users can visit this address, enter their prompt, and download the generated video once processing is finished.
 
 ## Contributing
 
