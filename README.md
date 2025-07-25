@@ -81,7 +81,13 @@ By default, the server will be hosted at `http://localhost:8080`. Users can visi
 
 ### Full Video
 
-![Sample video created by the software](examples/sample_video.mp4)
+[Link to view a sample video generated entirely by the software](examples/sample_video.mp4)
+
+## Notes
+
+Please be aware that the image generation is a balance between speed and quality for my hardware, but depending on your specific hardware, you may want to use different settings to optimize for either speed or quality.
+
+For reference, on my RTX 3090 it takes around 5-7 minutes to generate a video like the sample with the default settings.
 
 ## Contributing
 
