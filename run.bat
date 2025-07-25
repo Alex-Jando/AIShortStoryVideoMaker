@@ -33,6 +33,6 @@ if defined _OLD_CODEPAGE (
     set _OLD_CODEPAGE=
 )
 
-python assemble.py
+python cli.py
 
 pause
