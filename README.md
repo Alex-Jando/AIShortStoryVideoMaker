@@ -25,8 +25,8 @@ To run this project, ensure you have the following installed:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/ai-short-story-video-maker.git
-   cd ai-short-story-video-maker
+   git clone https://github.com/Alex-Jando/AIShortStoryVideoMaker.git
+   cd AIShortStoryVideoMaker
    ```
 2. Install the required Python libraries:
    ```bash
